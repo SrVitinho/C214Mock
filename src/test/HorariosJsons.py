@@ -1,20 +1,90 @@
 class HorariosJsons:
-    PaiDoConrado = {} # tambem conhecido como kiko
+    PaiDoConrado = (
+        "{ \"id\": \"1\", "
+        "\"nomeDoProfessor\": \"Kiko\", "
+        "\"horarioDeAtendimento\": \"09:00 - 11:00\", "
+        "\"periodo\": \"integral\", "
+        "\"sala\": \"3\", "
+        "\"predio\": \"1\" }"
+    ) # tambem conhecido como kiko
 
-    Chris = {}
+    Chris = (
+        "{ \"id\": \"2\", "
+        "\"nomeDoProfessor\": \"Chris\", "
+        "\"horarioDeAtendimento\": \"14:00 - 16:00\", "
+        "\"periodo\": \"noturno\", "
+        "\"sala\": \"8\", "
+        "\"predio\": \"2\" }"
+    )
 
-    Marcelo = {}
+    Marcelo = (
+        "{ \"id\": \"3\", "
+        "\"nomeDoProfessor\": \"Marcelo\", "
+        "\"horarioDeAtendimento\": \"10:00 - 12:00\", "
+        "\"periodo\": \"integral\", "
+        "\"sala\": \"12\", "
+        "\"predio\": \"3\" }"
+    )
 
-    Joao = {}
+    Joao = (
+        "{ \"id\": \"4\", "
+        "\"nomeDoProfessor\": \"João\", "
+        "\"horarioDeAtendimento\": \"15:00 - 17:00\", "
+        "\"periodo\": \"noturno\", "
+        "\"sala\": \"7\", "
+        "\"predio\": \"2\" }"
+    )
 
-    Rapahel = {}
+    Raphael = (
+        "{ \"id\": \"5\", "
+        "\"nomeDoProfessor\": \"Raphael\", "
+        "\"horarioDeAtendimento\": \"13:00 - 15:00\", "
+        "\"periodo\": \"integral\", "
+        "\"sala\": \"18\", "
+        "\"predio\": \"4\" }"
+    )
 
-    Victoria = {}
+    Victoria = (
+        "{ \"id\": \"6\", "
+        "\"nomeDoProfessor\": \"Victoria\", "
+        "\"horarioDeAtendimento\": \"09:00 - 11:00\", "
+        "\"periodo\": \"integral\", "
+        "\"sala\": \"14\", "
+        "\"predio\": \"3\" }"
+    )
 
-    Alessandra = {}
+    Alessandra = (
+        "{ \"id\": \"7\", "
+        "\"nomeDoProfessor\": \"Alessandra\", "
+        "\"horarioDeAtendimento\": \"12:00 - 14:00\", "
+        "\"periodo\": \"noturno\", "
+        "\"sala\": \"9\", "
+        "\"predio\": \"2\" }"
+    )
 
-    Vitor = {}
+    Vitor = (
+        "{ \"id\": \"8\", "
+        "\"nomeDoProfessor\": \"Vitor\", "
+        "\"horarioDeAtendimento\": \"10:00 - 12:00\", "
+        "\"periodo\": \"integral\", "
+        "\"sala\": \"25\", "
+        "\"predio\": \"6\" }"
+    )
 
-    Inexistente = {}
+    Inexistente = (
+        "{ \"id\": \"-1\", "
+        "\"nomeDoProfessor\": \"Inexistente\", "
+        "\"horarioDeAtendimento\": \"N/A\", "
+        "\"periodo\": \"N/A\", "
+        "\"sala\": \"N/A\", "
+        "\"predio\": \"N/A\" }"
+    )
 
-    Inválido = {}
+    Invalido = (
+        "{ \"id\": \"99\", "
+        "\"nomeDoProfessor\": \"Inválido\", "
+        "\"horarioDeAtendimento\": \"Inválido\", "
+        "\"periodo\": \"Inválido\", "
+        "\"sala\": \"Inválido\", "
+        "\"predio\": \"Inválido\" }"
+    )
