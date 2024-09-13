@@ -67,10 +67,18 @@ class HorariosJsons:
         "\"nomeDoProfessor\": \"Vitor\", "
         "\"horarioDeAtendimento\": \"10:00 - 12:00\", "
         "\"periodo\": \"integral\", "
-        "\"sala\": \"25\", "
+        "\"sala\": \"27\", "
         "\"predio\": \"6\" }"
     )
 
+    CadastroErrado = (                          # simula um cadastro inválido para testar uma possível falha
+        "{ \"id\": \"9\", "
+        "\"nomeDoProfessor\": \"Vitor\", "
+        "\"horarioDeAtendimento\": \"10:00 - 12:00\", "
+        "\"periodo\": \"integral\", "
+        "\"sala\": \"22\", "
+        "\"predio\": \"5\" }"
+    )
     Inexistente = (
         "{ \"id\": \"-1\", "
         "\"nomeDoProfessor\": \"Inexistente\", "
