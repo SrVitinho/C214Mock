@@ -1,5 +1,5 @@
 from src.main.HorarioService import HorarioService
-from src.test.HorariosJsons import HorariosJsons
+from src.Test.HorariosJsons import HorariosJsons
 
 class MockHorarioService(HorarioService):
     def __init__(self):
@@ -22,6 +22,8 @@ class MockHorarioService(HorarioService):
             return HorariosJsons.Alessandra
         elif id == 8:
             return HorariosJsons.Vitor
+        elif id == 9:
+            return HorariosJsons.CadastroErrado
         elif id < 0:
             return HorariosJsons.Inexistente
         else:
